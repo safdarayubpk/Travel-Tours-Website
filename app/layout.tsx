@@ -18,6 +18,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Travel & Tours - Discover Amazing Destinations",
   description: "Explore international travel tours to amazing destinations around the world. Book your next adventure today.",
+  manifest: "/manifest.json",
   verification: {
     google: process.env.GOOGLE_SITE_VERIFICATION || "google-site-verification-code-here",
     other: {
